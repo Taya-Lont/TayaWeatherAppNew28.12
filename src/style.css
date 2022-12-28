@@ -1,8 +1,8 @@
 .weather-app {
     max-width: 600px;
-    margin: 30 auto;
-    padding: 20px;
-    border: 1px solid #dadde1;
+    margin: 30px auto;
+    padding: 5px;
+    text-align: left;
 }
 body {
     font-family: arial, sans-serif;
@@ -18,6 +18,15 @@ body {
     display: inline;
   }
   
+  .border {
+    border: 1px solid, #777;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 750px;
+    border-radius: 10px;
+  }
+
+
     h1 {
         font-family: "Caveat", cursive;
         text-align: center;
@@ -47,7 +56,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-  
+    
     color: rgb(135, 135, 135);
     font-size: 16px;
     font-weight: 100;
@@ -61,13 +70,6 @@ body {
     max-width: 600px;
     margin: 30px auto;
   }
-  
-  .weather-app {
-    padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
-  }
-  
   .overview {
     margin-bottom: 20px;
   }
@@ -93,4 +95,16 @@ body {
     font-size: 17px;
     color: #000;
     font-family: "Tinos", serif;
+    margin: 35px auto;
+    text-align: center;
+  }
+
+  .owner {
+    margin: 30px auto;
+    text-align: center;
+  }
+  .state {
+text-align: right;
+position: relative;
+bottom: 60px;
   }

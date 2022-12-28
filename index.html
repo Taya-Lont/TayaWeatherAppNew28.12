@@ -39,25 +39,32 @@
           <div class="overview">
             <h2>New York <span id="city"></span></h1>
             <ul>
-              <li>Date: <span id="date"></span></li>
-              <li>Description <span id="description"></span></li>
+              <li> <span id="date"></span></li>
+              <li> <span id="description"></span></li>
             </ul>
           </div>
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
-                <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="Cloudy" id="icon" class="float-left" />
+                <img src="" id="icon" class="float-left" />
                 <div class="float-left">
-                  <strong id="temperature">12</strong><span class="units">°C | ℉ </span>
-                </div>
-              </div>
+                  <strong id="temperature"></strong
+                  ><span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
+                  </div>
+                  </div>
+                  </div>
             </div>
-            <div class="col-6">
+            <div class="col-12">
+              <div class="state">
               <ul>
                 <li>Prescription: <span id="pressure"></span>%</li>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> m/h</li>
               </ul>
+            </div>
             </div>
           </div>
         </div>
@@ -125,7 +132,7 @@
   </div>
 
   <br />
-  <div>
+  <div class ="owner">
         <small>
           <a
             href="https://github.com/Taya-Lont/TayaWeatherAppNew28.12"
