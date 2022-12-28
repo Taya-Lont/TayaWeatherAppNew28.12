@@ -16,10 +16,28 @@
   </head>
   <body>
     <div class="container">
+      <div class="border">
+        <h1>
+          Weather forecast
+        </h1>
+    <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+        <form id="search-form">
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter a city"
+            id="search-in"
+          />
+                <button id="s-button">Search</button>
+                <button id="c-button">Current</button>
+              </div>
+            </div>
+        </div>
+          </form>
           <div class="overview">
-            <h1>New York <span id="city"></span></h1>
+            <h2>New York <span id="city"></span></h1>
             <ul>
               <li>Date: <span id="date"></span></li>
               <li>Description <span id="description"></span></li>
@@ -36,16 +54,87 @@
             </div>
             <div class="col-6">
               <ul>
-                <li>Prescription: <span id="prescription"></span>%</li>
+                <li>Prescription: <span id="pressure"></span>%</li>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> m/h</li>
               </ul>
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-2">
+            <p style="color: #73a8cf;"><strong> Mon </strong></p>
+            <div class="emoji">⛅️</div>
+            <p>
+              min ℃
+              <br />
+              max ℃
+            </p>
+
+          </div>
+          <div class="col-2">
+            <p style="color: #73a8cf;"><strong> Tues </strong></p>
+            <div class="emoji">⛅️</div>
+            <p>
+              min ℃
+              <br />
+              max ℃
+            </p>
+
+          </div>
+          <div class="col-2">
+            <p style="color: #73a8cf;"><strong> Wed </strong></p>
+            <div class="emoji">⛅️</div>
+            <p>
+              min ℃
+              <br />
+              max ℃
+            </p>
+
+          </div>
+          <div class="col-2">
+            <p style="color: #73a8cf;"><strong> Thurs </strong></p>
+            <div class="emoji">⛅️</div>
+            <p>
+              min ℃
+              <br />
+              max ℃
+            </p>
+          </div>
+          <div class="col-2">
+            <p style="color: #73a8cf;"><strong> Fri </strong></p>
+            <div class="emoji">⛅️</div>
+            <p>
+              min ℃
+              <br />
+              max ℃
+            </p>
+          </div>
+          <div class="col-2">
+            <p style="color: #73a8cf;"><strong> Sat </strong></p>
+            <div class="emoji">⛅️</div>
+            <p>
+              min ℃
+              <br />
+              max ℃
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <div>
         <small>
           <a
             href="https://github.com/Taya-Lont/TayaWeatherAppNew28.12"
             target="_blank"
             >Open-source code </a
           > by Taya Lontkovska
+        </small>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
